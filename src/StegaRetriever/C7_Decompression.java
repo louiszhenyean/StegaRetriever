@@ -35,7 +35,7 @@ public class C7_Decompression {
         String Text=txtCrt.FinalTxt(CodeStr,CharTabFinal);
         Final_FileWrite FlWrt=new Final_FileWrite();
         FlWrt.WriteOutput(Text,Path2);
-        System.out.println("decompressed file created");
+        System.out.println("Decompressed file created");
         }
     }
    

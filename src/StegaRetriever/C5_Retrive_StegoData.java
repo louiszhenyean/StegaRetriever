@@ -17,7 +17,7 @@ public class C5_Retrive_StegoData {
          String retrieveStr=stego.StegoAudioRead(Path1);
          Writefile wrt=new Writefile();
          wrt.filewriting(retrieveStr, Path2);
-         System.out.println(" output file has been created");
+         System.out.println("StegaData has been retrieved");
          }
         }
 

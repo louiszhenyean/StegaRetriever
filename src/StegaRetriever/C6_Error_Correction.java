@@ -25,7 +25,7 @@ public class C6_Error_Correction {
      String CorrectedStr=errChk.errorDetectCoorrect(Txt);
      FileWrite Fwr=new FileWrite();
      Fwr.WriteOutput(CorrectedStr,Path2);
-     System.out.println("output error checked file has been created");
+     System.out.println("Error Checked file has been created");
      }
     }
 
