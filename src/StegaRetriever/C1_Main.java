@@ -8,16 +8,16 @@ public class C1_Main {
     {
       String Path="test/";
         
-        //C2_Compression comp = new C2_Compression();
+        C2_Compression comp = new C2_Compression();
         //comp.Compress(Path);
 
-        //C3_Audio_Steganography adSte = new C3_Audio_Steganography();
+        C3_Audio_Steganography adSte = new C3_Audio_Steganography();
         //adSte.AudioSte(Path);
         
         // THE BREAK POINT IS HERE
         
         C5_Retrive_StegoData Rtrv = new C5_Retrive_StegoData();
-        Rtrv.RtrvStego(Path);
+        //Rtrv.RtrvStego(Path);
 
         C6_Error_Correction errCrt = new C6_Error_Correction();
         errCrt.ErrCorrect(Path);
