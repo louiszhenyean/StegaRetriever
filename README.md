@@ -1,5 +1,6 @@
 # StegaRetriever
 Data Retriever for StegaSender  
+Check the encryptor here https://github.com/zyairelai/StegaSender/
 
 # How to use?
 1. Put the stega-file generated from StegaSender in the test/ folder.  
